@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ⚛️ React Base Standard
+Uma estrutura inicial robusta e padronizada para o desenvolvimento de aplicações modernas com React. Este repositório serve como um "esqueleto" pré-configurado, contendo as dependências essenciais e uma arquitetura de pastas otimizada para acelerar o início de novos projetos.
 
-## Available Scripts
+## 🚀 Funcionalidades
+Arquitetura Escalável: Estrutura de pastas organizada para facilitar a manutenção e o crescimento do código.
 
-In the project directory, you can run:
+Gerenciamento de Rotas: Configuração base do React Router Dom já implementada.
 
-### `npm start`
+Consumo de API: Axios pré-instalado e configurado para requisições HTTP.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estilização Global: Setup inicial para CSS/Sass ou Styled Components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Boas Práticas: Configuração de ambiente limpa e pronta para receber componentes de UI.
 
-### `npm test`
+Ambiente de Estudos: Ideal para acompanhar módulos da Udemy com uma base sólida.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias Utilizadas
+ReactJS: Biblioteca principal para construção da interface.
 
-### `npm run build`
+React Router Dom: Gerenciamento de navegação e rotas dinâmicas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Axios: Cliente HTTP para integração com APIs externas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Prop Types: Validação de tipos para props de componentes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React Icons: Pacote de ícones versátil para UI.
 
-### `npm run eject`
+Vite/Create-React-App: Tooling para build e servidor de desenvolvimento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Como rodar o projeto
+Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/mvdevelop/react-base-udemy.git
+cd react-base-udemy
+Instale as dependências:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Bash
 
-## Learn More
+npm install
+Inicie a aplicação:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run dev # ou npm start (dependendo do seu setup)
+O projeto abrirá em http://localhost:5173 ou http://localhost:3000.
 
-### Code Splitting
+## 📂 Estrutura de Pastas
+Plaintext
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+react-base-udemy/
+├── src/
+│   ├── assets/       # Arquivos estáticos (imagens, fontes)
+│   ├── components/   # Componentes reutilizáveis e globais
+│   ├── pages/        # Telas/Visões principais da aplicação
+│   ├── routes/       # Configuração e proteção de rotas
+│   ├── services/     # Configuração de chamadas de API (Axios)
+│   ├── styles/       # Temas e estilos globais
+│   └── App.js        # Componente raiz
+└── package.json      # Dependências e scripts do projeto
 
-### Analyzing the Bundle Size
+## 🎨 Preview da Interface
+Nota: Como este é um projeto base, a interface inicial é minimalista, contendo apenas a estrutura necessária para começar a codificar seus próprios componentes e telas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👨‍💻 Autor
+Desenvolvido com ❤️ por mvdevelop.
 
-### Making a Progressive Web App
+GitHub: @mvdevelop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 Licença
+Este projeto está sob a licença MIT.
