@@ -1,8 +1,12 @@
+/**
+ * Cores originais do projeto - Mantido para compatibilidade
+ * Para uso moderno, importe do arquivo theme.js
+ */
 
-export const primaryColor = '#c3073f';
+export const primaryColor = '#4a6cf7';
 export const primaryDarkColor = '#1a1a1d';
 
-export const successColor = '#0197f6';
-export const infoColor = '#0197f6';
-export const errorColor = '#f2af29';
+export const successColor = '#00bf63';
+export const infoColor = '#4a6cf7';
+export const errorColor = '#f24236';
 export const warningColor = '#f2af29';

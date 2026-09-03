@@ -1,7 +1,8 @@
 {
-  "name": "react02",
-  "version": "0.1.0",
+  "name": "marco-dev-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Portfolio profissional de desenvolvedor React - demonstrando habilidades fullstack",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -47,5 +48,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "author": "Marco A. Pinto (mvdevelop)",
+  "keywords": [
+    "portfolio",
+    "react",
+    "developer",
+    "frontend",
+    "backend",
+    "fullstack",
+    "javascript",
+    "redux",
+    "saga",
+    "styled-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvdevelop/react-base-udemy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvdevelop/react-base-udemy/issues"
   }
 }
