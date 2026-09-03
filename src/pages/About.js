@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, AboutSection, Title, Subtitle, Content, InfoGrid } from '../styles/AboutStyles';
+import { Container, AboutSection, Title, Subtitle, Content, InfoGrid, SkillsSection } from '../styles/AboutStyles';
 
 export default function About() {
   const skills = [
@@ -51,8 +51,8 @@ export default function About() {
           </div>
         </InfoGrid>
 
-        <div className='skills-section'>
-          <h3>Habilidades Técnicas</h3>
+        <SkillsSection>
+          <h3 className='skills-title'>Habilidades Técnicas</h3>
           <div className='skills-grid'>
             {skills.map(skill => (
               <div key={skill.name} className='skill-card'>
@@ -66,7 +66,7 @@ export default function About() {
               </div>
             ))}
           </div>
-        </div>
+        </SkillsSection>
       </AboutSection>
     </Container>
   );

@@ -1,8 +1,8 @@
-# 👨‍💻 Marco A. Pinto - Portfolio de Desenvolvedor
+# 👨‍💻 Mvdevelop - Portfolio de Desenvolvedor
 
 > Um portfólio moderno e responsivo demonstrando minhas habilidades como desenvolvedor fullstack com especialização em React, Redux e arquitetura de aplicações escaláveis.
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/4a6cf7/FFFFFF?text=Marco+A.+Pinto+Portfolio)
+![Portfolio Preview](https://via.placeholder.com/1200x600/4a6cf7/FFFFFF?text=Mvdevelop+Portfolio)
 
 ## 🎯 Sobre o Projeto
 
@@ -93,7 +93,7 @@ src/
 - Animações de entrada suave
 - Links diretos para minhas redes profissionais
 
-### 👨‍� Sobre Mim
+### 👨‍💻 Sobre Mim
 - Biografia profissional detalhada
 - Formação acadêmica e certificações
 - Experiência de trabalho relevante
@@ -183,7 +183,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 👨‍💻 Autor
 
-**Marco A. Pinto (mvdevelop)**
+**Mvdevelop (mvdevelop)**
 
 - **LinkedIn:** [linkedin.com/in/marcoapinto](https://linkedin.com/in/marcoapinto)
 - **GitHub:** [github.com/mvdevelop](https://github.com/mvdevelop)
@@ -194,4 +194,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ⭐ Se você gostou deste portfólio, considere deixar uma estrela no repositório!
 
-*Desenvolvido com ❤️ por Marco A. Pinto - Buscando oportunidades como Desenvolvedor Fullstack*
+*Desenvolvido com ❤️ por Mvdevelop - Buscando oportunidades como Desenvolvedor Fullstack*

@@ -10,8 +10,8 @@ describe('Home Page', () => {
 
   it('should render name', () => {
     render(<Home />);
-    expect(screen.getByText('Marco')).toBeInTheDocument();
-    expect(screen.getByText('Pinto')).toBeInTheDocument();
+    expect(screen.getByText('Mv')).toBeInTheDocument();
+    expect(screen.getByText('develop')).toBeInTheDocument();
   });
 
   it('should render subtitle', () => {

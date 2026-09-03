@@ -1,0 +1,15 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.min.js
+*.min.css
+
+# Ignore all HTML files:
+*.html
+
+# Ignore markdown files:
+*.md

@@ -9,7 +9,7 @@ export default function Footer() {
     <Container>
       <div className='footer-content'>
         <div className='footer-brand'>
-          <h3>Marco A. Pinto</h3>
+          <h3>Mvdevelop</h3>
           <p>Desenvolvedor Fullstack apaixonado por criar soluções elegantes e eficientes.</p>
         </div>
 
@@ -78,7 +78,7 @@ export default function Footer() {
         </SocialIcons>
 
         <Copyright>
-          <p>&copy; {currentYear} Marco A. Pinto. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} Mvdevelop. Todos os direitos reservados.</p>
           <p>Desenvolvido com ❤️ e React</p>
         </Copyright>
       </div>

@@ -5,7 +5,7 @@ import Footer from './Footer';
 describe('Footer Component', () => {
   it('should render author name', () => {
     render(<Footer />);
-    expect(screen.getByText('Marco A. Pinto')).toBeInTheDocument();
+    expect(screen.getByText('Mvdevelop')).toBeInTheDocument();
   });
 
   it('should render social links', () => {

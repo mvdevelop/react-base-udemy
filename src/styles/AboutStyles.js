@@ -61,3 +61,64 @@ export const InfoGrid = styled.div`
     }
   }
 `;
+
+export const SkillsSection = styled.div`
+  .skills-title {
+    font-size: ${({ theme }) => theme.typography.size['2xl']};
+    font-weight: ${({ theme }) => theme.typography.weight.bold};
+    color: ${({ theme }) => theme.text};
+    text-align: center;
+    margin-bottom: ${({ theme }) => theme.spacing.xl};
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: ${({ theme }) => theme.spacing.md};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .skill-card {
+    background: ${({ theme }) => theme.surface};
+    padding: ${({ theme }) => theme.spacing.md};
+    border-radius: ${({ theme }) => theme.radius.md};
+    border: 1px solid ${({ theme }) => theme.border};
+  }
+
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: ${({ theme }) => theme.spacing.xs};
+  }
+
+  .skill-name {
+    font-weight: ${({ theme }) => theme.typography.weight.semibold};
+    color: ${({ theme }) => theme.text};
+  }
+
+  .skill-level {
+    color: ${({ theme }) => theme.colors.primary[500]};
+    font-weight: ${({ theme }) => theme.typography.weight.bold};
+  }
+
+  .skill-bar {
+    height: 8px;
+    background: ${({ theme }) => theme.colors.gray[200]};
+    border-radius: ${({ theme }) => theme.radius.full};
+    overflow: hidden;
+  }
+
+  .skill-progress {
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      ${({ theme }) => theme.colors.primary[500]},
+      ${({ theme }) => theme.colors.primary[400]}
+    );
+    border-radius: ${({ theme }) => theme.radius.full};
+    transition: width 1s ease-out;
+  }
+`;

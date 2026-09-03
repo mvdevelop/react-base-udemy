@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, ProjectsSection, Title, Subtitle, Grid } from '../styles/ProjectsStyles';
+import { Container, ProjectsSection, Title, Subtitle, Grid, MoreProjects } from '../styles/ProjectsStyles';
 import Card from '../components/Card';
 import Button from '../components/Button';
 
@@ -42,7 +42,7 @@ export default function Projects() {
 
         <Grid>
           {projects.map(project => (
-            <Card key={project.id} hover>
+            <Card key={project.id} hover padding="lg">
               <div className='card-header'>
                 <h3>{project.title}</h3>
                 <span className={`status ${project.status === 'Concluído' ? 'completed' : 'in-progress'}`}>
@@ -59,10 +59,10 @@ export default function Projects() {
               </div>
 
               <div className='card-actions'>
-                <Button variant='primary' as='a' href={project.github}>
+                <Button variant='primary' size='sm' as='a' href={project.github}>
                   Código Fonte
                 </Button>
-                <Button variant='secondary' as='a' href={project.demo}>
+                <Button variant='outline' size='sm' as='a' href={project.demo}>
                   Ver Demo
                 </Button>
               </div>
@@ -70,11 +70,11 @@ export default function Projects() {
           ))}
         </Grid>
 
-        <div className='more-projects'>
-          <Button variant='outline' as='a' href='https://github.com/mvdevelop'>
+        <MoreProjects>
+          <Button variant='outline' as='a' href='https://github.com/mvdevelop' target='_blank'>
             Ver Todos os Projetos no GitHub →
           </Button>
-        </div>
+        </MoreProjects>
       </ProjectsSection>
     </Container>
   );

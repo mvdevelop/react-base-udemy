@@ -10,7 +10,7 @@ export default function Home() {
         <div className='hero-content'>
           <h2 className='greeting'>Olá, meu nome é</h2>
           <Title>
-            Marco A. <span className='highlight'>Pinto</span>
+            Mv<span className='highlight'>develop</span>
           </Title>
           <Subtitle>Desenvolvedor Fullstack</Subtitle>
           <Description>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className='hero-visual'>
           <div className='avatar'>
             <div className='avatar-placeholder'>
-              <span>MA</span>
+              <span>MV</span>
             </div>
           </div>
           <div className='floating-cards'>
